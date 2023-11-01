@@ -1,6 +1,6 @@
 # Rising Maze
 
-&nbsp;&nbsp;&nbsp;&nbsp; This is a project I worked on in Unreal Engine 5.2 where you traverse a maze by wall-running and double-jumping to avoid the rising lava. The game file is located <a href = "">here</a>. Upon launch of the game you might receive an error saying "Error: CDO Constructor Failed to find BP_ThirdPersonCharacter_C" which occurred when I deleted the starter character blueprint and am still trying to fix.
+&nbsp;&nbsp;&nbsp;&nbsp; This is a project I worked on in Unreal Engine 5.2 where you traverse a maze by wall-running and double-jumping to avoid the rising lava. It was a fun experience to create and learn from this game!
 
 &nbsp;&nbsp;&nbsp;&nbsp; I've always thought wall-running was a cool game mechanic and thought it would be fun to try and build a game around it. It turns out that implementing a wall-running mechanic into a game is much more difficult than I anticipated with many layers of programming as this was one of my first projects in Unreal Engine. In fact, I used this project as a learning opportunity to learn more about Unreal Engine and its visual scripting language blueprints. Wall running like other movement-oriented game mechanics can get a bit complicated, so after struggling to implement it myself I looked over various other implementations on YouTube and game development forums to give myself a starting point. A large majority of the examples I saw followed the same pattern:
 ## Wall Run Pattern
