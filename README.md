@@ -26,8 +26,8 @@
   - Set default plane constraints
   - End camera tilt
 ## Problems and bugs while developing
-&nbsp;&nbsp;&nbsp;&nbsp; As mentioned at the top there is an error of a missing CDO which happened when I deleted the started third-person character blueprint, but this error has no effect on the gameplay.  
+&nbsp;&nbsp;&nbsp;&nbsp; There is an error of a missing CDO which happened when I deleted the starter third-person character blueprint, but this error does not affect the gameplay.  
 
-&nbsp;&nbsp;&nbsp;&nbsp; Another bug that I encountered during development was continuing wall running when wall running is supposed to be false effectively making you fly. This bug would occur when wall running for longer than 5 seconds because I have a timeline (A blueprint node that executes code every x seconds) that would run the wall run loop. Because this loop was used to check if we can still wall run, wall run never gets switched to false making the player float in mid-air. It was a simple fix by just changing the timeline to loop itself instead of running once.  
+&nbsp;&nbsp;&nbsp;&nbsp; Another bug that I encountered during development was continuing wall running when we are no longer in contact with a wall; effectively making you fly. This bug would occur when wall running for longer than 5 seconds because I have a timeline (A blueprint node that executes code every x seconds) that would run the wall run loop. Because this loop was used to check if we can still wall run, wall run never gets switched to false making the player float in mid-air. It was a simple fix by just changing the timeline to loop itself instead of running once.  
 
 &nbsp;&nbsp;&nbsp;&nbsp; A recent and current bug involves the rendering of the walls when the wall running/jumping past them making the wall twitch and showing the lava underneath it. I have tried changing the render order of the wall and the lava mesh with no luck. This bug also does not affect the core gameplay but does make it a bit disorienting when trying to traverse the maze.  
